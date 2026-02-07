@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Run</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar custom-nav is-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item logo">Velocity</a>
+            <a role="button" class="navbar-burger">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a href="#running" class="navbar-item">Running</a>
+                <a href="#training" class="navbar-item">Entrenamiento</a>
+                <a href="#lifestyle" class="navbar-item">Lifestyle</a>
+                <a href="#special" class="navbar-item">Edición Especial</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-pro">
+        <div class="hero-slider">
+            <img src="IMG/larga istancia1.jpg" class="active">
+            <img src="IMG/larga istancia2.jpg">
+            <img src="IMG/larga istancia3.jpg">
+        </div>
+
+        <div class="hero-content">
+            <h1>Velocity X-Pro</h1>
+            <p>Corre como los campeones. Tecnología que impulsa tu siguiente récord.</p>
+            <button onclick="scrollToSection('running')">Comprar Ahora</button>
+        </div>
+    </section>
+
+    <section id="running" class="section-pro paginated-section">
+        <h2>Running</h2>
+        <div class="grid">
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia1.jpg"></div>
+                <h3>Nike Air Zoom Alpha</h3>
+                <p>$185</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia2.jpg"></div>
+                <h3>Adidas Adizero Pro</h3>
+                <p>$160</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia3.jpg"></div>
+                <h3>Brooks Ghost 15</h3>
+                <p>$145</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia4.jpg"></div>
+                <h3>Saucony Endorphin</h3>
+                <p>$170</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia5.jpg"></div>
+                <h3>Asics Novablast</h3>
+                <p>$135</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia6.jpg"></div>
+                <h3>Hoka Clifton 9</h3>
+                <p>$155</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia7.jpg"></div>
+                <h3>New Balance 1080</h3>
+                <p>$165</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia8.jpg"></div>
+                <h3>Mizuno Wave Rider</h3>
+                <p>$140</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia9.jpg"></div>
+                <h3>On Cloudmonster</h3>
+                <p>$190</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/larga istancia10.jpg"></div>
+                <h3>Puma Deviate Nitro</h3>
+                <p>$150</p><button>Añadir al carrito</button>
+            </div>
+        </div>
+        <nav class="pagination is-centered mt-6"><a class="pagination-previous">Anterior</a><a
+                class="pagination-next">Siguiente</a>
+            <ul class="pagination-list">
+                <li><span class="pagination-link is-current page-info">1</span></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="training" class="section-pro dark paginated-section">
+        <h2>Entrenamiento</h2>
+        <div class="grid">
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio1.jpg"></div>
+                <h3>Nike Metcon 9</h3>
+                <p>$130</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio2.jpg"></div>
+                <h3>Reebok Nano X3</h3>
+                <p>$140</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio3.jpg"></div>
+                <h3>Under Armour TriBase</h3>
+                <p>$120</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio4.jpg"></div>
+                <h3>Adidas Dropset 2</h3>
+                <p>$125</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio5.jpg"></div>
+                <h3>Nike Romaleos 4</h3>
+                <p>$200</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio6.jpg"></div>
+                <h3>Puma Fuse 2.0</h3>
+                <p>$110</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio7.jpg"></div>
+                <h3>Nobull Outwork</h3>
+                <p>$135</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio8.jpg"></div>
+                <h3>Inov-8 F-Lite</h3>
+                <p>$145</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio9.jpg"></div>
+                <h3>New Balance Minimus</h3>
+                <p>$115</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/gimnasio10.jpg"></div>
+                <h3>Nike Savaleos</h3>
+                <p>$120</p><button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <nav class="pagination is-centered mt-6" role="navigation" aria-label="pagination">
+            <a class="pagination-previous">Anterior</a>
+            <a class="pagination-next">Siguiente</a>
+            <ul class="pagination-list">
+                <li><span class="pagination-link is-current page-info">1</span></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="lifestyle" class="section-pro paginated-section">
+        <h2>Lifestyle</h2>
+        <div class="grid">
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano1.jpg"></div>
+                <h3>Nike Air Force 1</h3>
+                <p>$110</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano2.jpg"></div>
+                <h3>Adidas Forum Low</h3>
+                <p>$100</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano3.jpg"></div>
+                <h3>New Balance 550</h3>
+                <p>$120</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano4.jpg"></div>
+                <h3>Nike Dunk Low</h3>
+                <p>$115</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano5.jpg"></div>
+                <h3>Vans Old Skool</h3>
+                <p>$75</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano6.jpg"></div>
+                <h3>Adidas Gazelle</h3>
+                <p>$95</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano7.jpg"></div>
+                <h3>Converse Chuck 70</h3>
+                <p>$85</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano8.jpg"></div>
+                <h3>Puma Cali</h3>
+                <p>$90</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano9.jpg"></div>
+                <h3>Reebok Club C 85</h3>
+                <p>$80</p><button>Añadir al carrito</button>
+            </div>
+            <div class="card-pro">
+                <div class="img-container"><img src="IMG/urbano10.jpg"></div>
+                <h3>Asics Gel-Lyte III</h3>
+                <p>$130</p><button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <nav class="pagination is-centered mt-6" role="navigation" aria-label="pagination">
+            <a class="pagination-previous">Anterior</a>
+            <a class="pagination-next">Siguiente</a>
+            <ul class="pagination-list">
+                <li><span class="pagination-link is-current page-info">1</span></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="special" class="section-pro dark paginated-section">
+        <h2>Edición Especial</h2>
+        <div class="grid">
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/converse lil peep.webp"></div>
+                <h3>Converse Lil Peep Edition</h3>
+                <p>$210</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/nike dragon ball z.jpg"></div>
+                <h3>Nike Air Goku Z</h3>
+                <p>$299</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/nike one piece.avif"></div>
+                <h3>Nike Luffy Gear 5</h3>
+                <p>$285</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/Converse y Kim Jones.avif"></div>
+                <h3>Converse x Kim Jones</h3>
+                <p>$195</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/zapatos edicion travis scott.jpg"></div>
+                <h3>AJ1 Travis Scott Olive</h3>
+                <p>$450</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/Tony Taylor x Air Jordan 1 High Retro Donenbecher.webp"></div>
+                <h3>AJ1 Tony Taylor Retro</h3>
+                <p>$320</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/Tenis Zapatillas Jordan 1 Retro High J Balvin.jpeg"></div>
+                <h3>Jordan 1 J Balvin</h3>
+                <p>$380</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/tenis edicion bad bunny.jpg"></div>
+                <h3>Adidas Forum Bad Bunny</h3>
+                <p>$260</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/stephen curry.jpg"></div>
+                <h3>Curry Flow 10 Special</h3>
+                <p>$180</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/onitsuka tiger mexico 66.webp"></div>
+                <h3>Mexico 66 Gold Edition</h3>
+                <p>$125</p><button>Comprar</button>
+            </div>
+            <div class="card-pro special"><span class="badge">LIMITADO</span>
+                <div class="img-container"><img src="IMG/adidas zamba messi.webp"></div>
+                <h3>Adidas Samba Messi</h3>
+                <p>$115</p><button>Comprar</button>
+            </div>
+        </div>
+        <nav class="pagination is-centered mt-6"><a class="pagination-previous">Anterior</a><a
+                class="pagination-next">Siguiente</a>
+            <ul class="pagination-list">
+                <li><span class="pagination-link is-current page-info">1</span></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <section class="testimonial">
+        <h2>Lionel Messi — El mejor jugador de futbol del mundo</h2>
+        <p>“Cuando yo te impulso, vos me impulsás”</p>
+        <button onclick="scrollToSection('special')">Descubre la Edición Especial</button>
+    </section>
+
+    <section class="newsletter">
+        <h2>Únete a los más de 10,000 corredores</h2>
+        <input placeholder="Tu correo">
+        <button>Suscribirme</button>
+    </section>
+
+    <footer>Velocity Run © 2026</footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
